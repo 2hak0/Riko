@@ -611,4 +611,4 @@ async def on_raw_reaction_add(payload):
 
 
 # 토큰 입력 후 구동
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run('MTUxMzU0NzI0MTIwNDM1MTA4Nw.G0hwtq.-hU7l-nFKwhHPn1rLd4YDu5LXezBGfXLvY5l6Y')
