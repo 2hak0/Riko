@@ -612,4 +612,4 @@ async def on_raw_reaction_add(payload):
 
 
 # 토큰 입력 후 구동
-bot.run('MTUxMzU0NzI0MTIwNDM1MTA4Nw.GHkBhW.Zpa3ZD3p_hK_9wjlDMXC01EubgliXkEAE0IFh0')
+bot.run('MTUxMzU0NzI0MTIwNDM1MTA4Nw.GTVY_9.LAhgn9UvazMMCUBtu9GA-NQnmCiU7TxePaQT-s')
