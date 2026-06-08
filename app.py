@@ -6,7 +6,8 @@ import os
 import datetime
 from dotenv import load_dotenv
 
-load_dotenv()
+if os.path.exists('.env'):
+    load_dotenv()
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
@@ -611,4 +612,4 @@ async def on_raw_reaction_add(payload):
 
 
 # 토큰 입력 후 구동
-bot.run(os.getenv('DISCORD_TOKEN'))
+bot.run('MTUxMzU0NzI0MTIwNDM1MTA4Nw.GHkBhW.Zpa3ZD3p_hK_9wjlDMXC01EubgliXkEAE0IFh0')
